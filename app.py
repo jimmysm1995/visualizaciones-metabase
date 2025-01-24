@@ -8,17 +8,13 @@ tabs = st.tabs(["Dashboard 1", "Dashboard 2"])
 
 # Contenido de la pestaña 1
 with tabs[0]:
-    st.header("Dashboard 1")
-    # Incluir el iframe de forma segura en Streamlit
-    iframe_html = """
-    <iframe src="http://9.223.32.5:3000/public/dashboard/9672fa9e-43b9-46ce-baa6-62ab6f1bd0f9" 
-            frameborder="0" 
-            width="800" 
-            height="600" 
-            allowtransparency></iframe>
-    """
-
-st.markdown(iframe_html, unsafe_allow_html=True)
+    st.header("Dashboard 2")
+    st.components.v1.iframe(
+        "http://9.223.32.5:3000/public/dashboard/9672fa9e-43b9-46ce-baa6-62ab6f1bd0f9",  # Cambia el URL del segundo dashboard
+        width=1200,
+        height=800,
+        scrolling=True,
+    )
 
 # Contenido de la pestaña 2
 with tabs[1]:
