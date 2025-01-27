@@ -36,13 +36,11 @@ with tabs[2]:
         scrolling=True,
     )
 
-# Contenido de la pestaña 4
 with tabs[3]:
     st.header("Grafana")
-    st.components.v1.iframe(
-        "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&from=1737977136689&to=1737998736689&timezone=browser&panelId=9&__feature.dashboardSceneSolo",  # URL del iframe de Grafana
-        width=1200,
-        height=800,
-        scrolling=True,
-    )
+    grafana_url = "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&from=1737977136689&to=1737998736689&timezone=browser&panelId=9&__feature.dashboardSceneSolo"
+    iframe_code = f"""
+    <iframe src="{grafana_url}" width="1200" height="800" style="border: none; overflow: hidden;"></iframe>
+    """
+    st.markdown(iframe_code, unsafe_allow_html=True)
 
