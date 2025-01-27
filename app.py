@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Dashboards", layout="wide")
 
 # Crear las pestañas
-tabs = st.tabs(["Etiquetas", "vinok", "Usuarios"])
+tabs = st.tabs(["Etiquetas", "vinok", "Usuarios", "Grafana"])
 
 # Contenido de la pestaña 1
 with tabs[0]:
@@ -31,6 +31,16 @@ with tabs[2]:
     st.header("Usuarios")
     st.components.v1.iframe(
         "https://vinok-metabase.duckdns.org/public/dashboard/93d2f5b3-f721-47c7-b169-1ba06fe13e1c",  # Cambia el URL del segundo dashboard
+        width=1200,
+        height=800,
+        scrolling=True,
+    )
+
+# Contenido de la pestaña 4
+with tabs[3]:
+    st.header("Grafana")
+    st.components.v1.iframe(
+        "http://localhost:3000/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&from=1737949780626&to=1737992980626&timezone=browser&tab=queries&panelId=9&__feature.dashboardSceneSolo",  # URL del iframe de Grafana
         width=1200,
         height=800,
         scrolling=True,
