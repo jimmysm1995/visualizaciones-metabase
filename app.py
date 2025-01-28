@@ -38,7 +38,7 @@ with tabs[2]:
 
 # Contenido de la pestaña Grafana
 with tabs[3]:
-    st.header("Grafana Dashboard")
+    st.header("Mapa")
     st.components.v1.iframe(
         "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&from=1738037349497&to=1738058949497&timezone=browser&panelId=10&__feature.dashboardSceneSolo", 
         width=1200, 
