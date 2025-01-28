@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Dashboards", layout="wide")
 
 # Crear las pestañas
-tabs = st.tabs(["Etiquetas", "vinok", "Usuarios", "Grafana"])
+tabs = st.tabs(["Etiquetas", "vinok", "Usuarios", "Mapa Escaneo"])
 
 # Contenido de la pestaña 1
 with tabs[0]:
