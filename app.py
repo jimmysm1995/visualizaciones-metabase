@@ -40,7 +40,7 @@ with tabs[2]:
 with tabs[3]:
     st.header("Grafana Dashboard")
     st.components.v1.iframe(
-        "https://vinok-metabase.duckdns.org/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&from=1737979680608&to=1738001280608&timezone=browser&panelId=2&__feature.dashboardSceneSolo", 
+        "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&from=1738037349497&to=1738058949497&timezone=browser&panelId=10&__feature.dashboardSceneSolo", 
         width=1200, 
         height=800,
         scrolling=True
