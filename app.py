@@ -50,7 +50,7 @@ with tabs[3]:
 with tabs[4]:
     st.header("Bodegas")
     st.components.v1.iframe(
-        "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&panelId=7&var-companyName=Bodega+Matarromera", 
+        "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&panelId=7&var-companyName=Bodega%20Matarromera", 
         width=1200, 
         height=800,
         scrolling=True
