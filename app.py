@@ -20,7 +20,7 @@ with tabs[0]:
 with tabs[1]:
     st.header("vinok")
     st.components.v1.iframe(
-        "https://datalab.vinok.es/metabase/public/dashboard/61e8a95b-8a58-4c1d-9ce6-d788eeed96c3",  # Cambia el URL del segundo dashboard
+        "https://datalab.vinok.es/metabase/public/dashboard/eb9796bc-cb79-4214-a0d1-0e23983d5aad",  # Cambia el URL del segundo dashboard
         width=1200,
         height=800,
         scrolling=True,
