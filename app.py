@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Dashboards", layout="wide")
 
 # Crear las pestañas
-tabs = st.tabs(["Etiquetas", "vinok", "Usuarios", "Mapa Escaneo", "Bodegas"])
+tabs = st.tabs(["Etiquetas", "vinok", "Usuarios", "Mapa Escaneo", "Usuario"])
 
 # Contenido de la pestaña 1
 with tabs[0]:
@@ -48,9 +48,9 @@ with tabs[3]:
 
 # Contenido de la pestaña Grafana
 with tabs[4]:
-    st.header("Bodegas")
+    st.header("Usuario")
     st.components.v1.iframe(
-        "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&panelId=7&var-companyName=Bodegas%20Habla", 
+        "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&&panelId=11&var-username=jose.s.m.1995%40gmail.com", 
         width=1200, 
         height=800,
         scrolling=True
