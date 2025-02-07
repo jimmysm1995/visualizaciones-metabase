@@ -10,7 +10,7 @@ tabs = st.tabs(["Etiquetas", "vinok", "Usuarios", "Mapa Escaneo", "Usuario"])
 with tabs[0]:
     st.header("Etiquetas")
     st.components.v1.iframe(
-        "https://datalab.vinok.es/metabase/public/dashboard/9672fa9e-43b9-46ce-baa6-62ab6f1bd0f9",  # Cambia el URL del segundo dashboard
+        "https://datalab.vinok.es/metabase/question/20-food-table?foodcode=Pescados",  # Cambia el URL del segundo dashboard
         width=1200,
         height=800,
         scrolling=True,
@@ -20,7 +20,7 @@ with tabs[0]:
 with tabs[1]:
     st.header("vinok")
     st.components.v1.iframe(
-        "https://datalab.vinok.es/metabase/public/dashboard/eb9796bc-cb79-4214-a0d1-0e23983d5aad?Foodcode=Pescados",  # Cambia el URL del segundo dashboard
+        "https://datalab.vinok.es/metabase/public/dashboard/eb9796bc-cb79-4214-a0d1-0e23983d5aad?foodcode=Pescados",  # Cambia el URL del segundo dashboard
         width=1200,
         height=800,
         scrolling=True,
