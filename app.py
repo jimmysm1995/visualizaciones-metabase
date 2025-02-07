@@ -10,7 +10,7 @@ tabs = st.tabs(["Etiquetas", "vinok", "Usuarios", "Mapa Escaneo", "Usuario"])
 with tabs[0]:
     st.header("Etiquetas")
     st.components.v1.iframe(
-        "https://datalab.vinok.es/metabase/question/20-food-table?foodcode=Pescados",  # Cambia el URL del segundo dashboard
+        "https://datalab.vinok.es/metabase/public/question/20-food-table?foodcode=Pescados",  # Cambia el URL del segundo dashboard
         width=1200,
         height=800,
         scrolling=True,
