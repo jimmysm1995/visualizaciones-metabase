@@ -50,8 +50,9 @@ with tabs[3]:
 with tabs[4]:
     st.header("Usuario")
     st.components.v1.iframe(
-        "https://datalab.vinok.es/grafana/d-solo/deaz748cssagwd/vinok-dashboard?orgId=1&&panelId=11&var-username=jose.s.m.1995%40gmail.com", 
+        "https://app.powerbi.com/reportEmbed?reportId=f3b8cf9d-3d61-4f96-990e-424a1cf11a44&autoAuth=true&ctid=0c1808cb-beab-4314-b799-5b2701c9eece", 
         width=1200, 
         height=800,
         scrolling=True
     )
+
